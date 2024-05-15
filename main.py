@@ -1,4 +1,3 @@
-import random
 import joblib
 import pandas as pd
 from fastapi import FastAPI, HTTPException
@@ -7,7 +6,6 @@ from pydantic import BaseModel
 from typing import List
 import gzip
 import shutil
-import os
 
 app = FastAPI()
 
