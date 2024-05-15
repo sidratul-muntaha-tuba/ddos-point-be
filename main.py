@@ -23,7 +23,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-pickleFileSpecific = './Models/ddos-detecting-ensemble-model-100000-all-specific-0.8.pkl.gz'
+pickleFileSpecific = './Models/ddos-detecting-ensemble-model-50000-all-specific-0.9.pkl.gz'
 pickleFileGeneral = './Models/ddos-detecting-ensemble-model-100000-top60-general-0.85.pkl.gz'
 
 def unzip_model(file_path):
